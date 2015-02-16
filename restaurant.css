@@ -8,5 +8,29 @@ ul {
 }
 
 body {
+	padding-top: 70px;
 	position: relative;
+}
+
+.panel-heading {
+
+}
+
+.content-block {
+	margin-top:5px;
+	margin-bottom:5px;
+	background-color: #eeeeee;
+}
+
+.navigation {
+	float:right;
+}
+
+.image-block {
+	float: left;
+}
+
+img {
+	padding: 2px;
+	width:33%;
 }
