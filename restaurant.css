@@ -27,10 +27,28 @@ body {
 }
 
 .image-block {
-	float: left;
 }
 
 img {
-	padding: 2px;
-	width:33%;
+
+}
+
+#directions h2 {
+	margin-left: 53px;
+}
+
+.map {
+	padding: 5px;
+}
+
+.image-block > .col-xs-12 {
+	padding:none;
+}
+
+.image-block > .col-sm-4 {
+	padding:none;
+}
+
+.image-block > .col-md-4 {
+	padding:-15px;
 }
