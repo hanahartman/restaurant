@@ -55,7 +55,7 @@
 <!--START ABOUT-->
 <div class="row" id="about">
 	<div class="content-block col-md-12 col-xs-12">
-			<div class="container">
+			<div class="container-fluid">
 				<h2>About</h2>
 				<div class="row">
 					<p class="col-md-12 col-xs-12">
@@ -69,16 +69,24 @@
 
 <!--START IMAGE BLOCK 1-->
 <div class="image-block row">
-	<img src="clipboard2.png">
-	<img src="cups.png">
-	<img src="snow.png">
+	<div class="container-fluid">
+		<div class="thumbnail hidden-xs col-sm-6 col-md-4 col-lg-4">
+			<img src="clipboard2.png" class="img-responsive">
+		</div>
+		<div class="thumbnail col-xs-12 col-sm-6 col-md-4 col-lg-4">
+			<img src="cups.png" class="full-width img-responsive">
+		</div>
+		<div class="thumbnail hidden-xs hidden-sm col-md-4 col-lg-4">
+			<img src="snow.png" class="img-responsive">
+		</div>
+	</div>
 </div>
 <!--END IMAGE BLOCK 1-->
 
 <!--START DIRECTIONS-->
 <div class="row" id="directions">
 	<div class="content-block col-md-12 col-xs-12">
-		<div class="container">		
+		<div class="container-fluid">		
 		<h2>Directions and Hours</h2>
 			<div class="row">							
 				<ul class="col-md-5 hours">
@@ -89,7 +97,9 @@
 					<li>Friday:7am-6pm</li>
 					<li>Saturday: 8am-6pm</li>
 					<li>Sunday: 8am-6pm</li>
-				</ul>			
+					<br>
+					<li> 4180 Manchester Ave, St. Louis, MO 63110</li>
+				</ul>
 				<div class="col-md-7">
 					<div class="map">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3116.9441009824804!2d-90.25334!3d38.62716700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d8b4e6102c7fa1%3A0x9ad7c64b30b78a8d!2sRise+Coffee!5e0!3m2!1sen!2sus!4v1424565293175" width="600" height="450" frameborder="0" style="border:0"></iframe>
@@ -102,11 +112,14 @@
 <!--END DIRECTIONS-->
 
 <!--START IMAGE BLOCK 2-->
-<div class="container.fluid">
-	<div class="image-block row">
-		<img src="car.png" class="col-xs-12 col-sm-4 col-md-4">
-		<img src="coffee.png" class="col-xs-12 col-sm-4 col-md-4">
-		<img src="flowers.png" class="col-xs-12 col-sm-4 col-md-4">
+<div class="image-block row">
+	<div class="container-fluid">
+		<div class="thumbnail col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<img src="cupcakes.png" class="img-responsive">
+		</div>
+		<div class="thumbnail hidden-xs col-sm-6 col-md-6 col-lg-6">
+			<img src="food.png" class="img-responsive">
+		</div>
 	</div>
 </div>
 <!--END IMAGE BLOCK 2-->
@@ -114,119 +127,126 @@
 <!--START MENU-->
 <div class="row" id="menu">
 	<div class="content-block col-md-12 col-xs-12">
-		<div class="container">
+		<div class="container-fluid">
 			<h2>Menu</h2>
 				<div class="row">
 
-
-					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-					  <div class="panel panel-default">
-					    <div class="panel-heading" role="tab" id="headingOne">
-					      <h4 class="panel-title">
-					        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-					          Coffee, etc
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-					      <div class="panel-body">
-					        <ul class="col-md-3 col-xs-12">
-					        	<li><h3>Featured Roasters</h3></li>
-					        	<li>Blueprint Coffee</li>
-					        	<li>Goshen Coffee</li>
-					        	<li>Sump Coffee</li>
-					        	<li>Kaldis Coffee</li>
-					        	<li>Oddly Correct</li>
-					        	<li>PT's Coffee Roasting Co.</li>
-					        	<li>Shortwave Coffee</li>
-					        </ul>
-					        <ul class="col-md-3 col-xs-12">
-					        	<li><h3>Espresso Drinks</h3></li>
-					        	<li>Espresso</li>
-					        	<li>Gibraltar</li>
-					        	<li>Cappuccino</li>
-					        	<li>Latte</li>
-					        	<li><i>House made seasonal syrups available</i></li>
-					        </ul>
-					        <ul class="col-md-3 col-xs-12">
-					        	<li><h3>Brew Bar</h3></li>
-					        	<li>Kalita Wave</li>
-					        	<li>Chemex</li>
-					        	<li>V60</li>
-					        </ul>
-					        <ul class="col-md-3 col-xs-12">
-					        	<li><h3>Other Ways to Get Your Fix</h3></li>
-					        	<li>Drip Coffee</li>
-					        	<li>Tea: Hot and Iced</li>
-					        	<li>Chai</li>
-					        	<li>Hot Chocolate</li>
-					        	<li>Bottled Beverages: Kombucha, Soda, Juice</li>
-					        </ul>
-					      </div>
-					  </div>
-					  <div class="panel panel-default">
-					    <div class="panel-heading" role="tab" id="headingTwo">
-					      <h4 class="panel-title">
-					        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					          Baked goods
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-					      <div class="panel-body">
-					        <ul class="col-md-6 col-xs-12">
-					        	<li><h3><a href="http://www.whiskstl.com/" alt="Visit Whisk Sustainable Bakeshop">Whisk Sustainable Bakeshop</a></h3></li>
-					        	<li>Seasonal Quiche - Scones - Muffins - Cakeballs - Ice Pops - Handpies - Snacks for your Littles - Organic Milk and Juice - Fruit Cup - Cheese and Crackers - Yogurt</li>        	
-					        </ul>
-					        <ul class="col-md-6 col-xs-12">
-					        	<li><h3><a href="https://www.facebook.com/pages/Eddies-Southtown-Donuts/366880101885" alt="Visit Eddie's Southtown Donuts">Eddie's Southtown Donuts</a></h3></li>
-					        	<li>Regular $1</li>
-					        	<li>Fancy $1.50</li>
-					        </ul>
-					    </div>
-					  </div>
-					  <div class="panel panel-default">
-					    <div class="panel-heading" role="tab" id="headingThree">
-					      <h4 class="panel-title">
-					        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-					          Lunch
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-					      <div class="panel-body">
-					        <ul class="col-md-12 col-xs-12">
-					        	<li><h3><small>Lunch provided by </small>The Social Affair<small> in Shaw</small></h3></li>
-					        	<li>HARVEST CHICKEN SALAD - Roasted chicken, celery, granny smith apples, grapes, cranberries, caramelized walnuts served on bibb lettuce with rosemary crackers. $9 </li>
-					        	<li>QUICHE - Deep dish quiche served with mixed greens and basil lemongrette $8</li>
-					        	<li>WHITE BEAN AND BASIL DIP - Served with pita chips, carrots & celery $7</li>
-					        	<li>SOUTHERN MAC & CHEESE - Served with a side of mixed greens and basil lemongrette $5.95</li>
-					        	<li>KIDS MAC & CHEESE - Served with an apple, banana, or squeeze yogurt $5.95</li>
-					        </ul>
-					      </div>
-					    </div>
-					  </div>
-					</div>
-
-
+					<div class="custom-accordion col-md-10 col-md-offset-1">
+						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						  <div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="headingOne">
+						      <h4 class="panel-title">
+						        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						          Coffee, etc
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+						      <div class="panel-body">
+						        <ul class="col-md-3 col-xs-12">
+						        	<li><h3>Featured Roasters</h3></li>
+						        	<li>Blueprint Coffee</li>
+						        	<li>Goshen Coffee</li>
+						        	<li>Sump Coffee</li>
+						        	<li>Kaldis Coffee</li>
+						        	<li>Oddly Correct</li>
+						        	<li>PT's Coffee Roasting Co.</li>
+						        	<li>Shortwave Coffee</li>
+						        </ul>
+						        <ul class="col-md-3 col-xs-12">
+						        	<li><h3>Espresso Drinks</h3></li>
+						        	<li>Espresso</li>
+						        	<li>Gibraltar</li>
+						        	<li>Cappuccino</li>
+						        	<li>Latte</li>
+						        	<li><i>House made seasonal syrups available</i></li>
+						        </ul>
+						        <ul class="col-md-3 col-xs-12">
+						        	<li><h3>Brew Bar</h3></li>
+						        	<li>Kalita Wave</li>
+						        	<li>Chemex</li>
+						        	<li>V60</li>
+						        </ul>
+						        <ul class="col-md-3 col-xs-12">
+						        	<li><h3>Other Ways to Get Your Fix</h3></li>
+						        	<li>Drip Coffee</li>
+						        	<li>Tea: Hot and Iced</li>
+						        	<li>Chai</li>
+						        	<li>Hot Chocolate</li>
+						        	<li>Bottled Beverages: Kombucha, Soda, Juice</li>
+						        </ul>
+						      </div>
+						  </div>
+						  <div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="headingTwo">
+						      <h4 class="panel-title">
+						        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						          Baked goods
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+						      <div class="panel-body">
+						        <ul class="col-md-6 col-xs-12">
+						        	<li><h3><a href="http://www.whiskstl.com/" alt="Visit Whisk Sustainable Bakeshop">Whisk Sustainable Bakeshop</a></h3></li>
+						        	<li>Seasonal Quiche - Scones - Muffins - Cakeballs - Ice Pops - Handpies - Snacks for your Littles - Organic Milk and Juice - Fruit Cup - Cheese and Crackers - Yogurt</li>        	
+						        </ul>
+						        <ul class="col-md-6 col-xs-12">
+						        	<li><h3><a href="https://www.facebook.com/pages/Eddies-Southtown-Donuts/366880101885" alt="Visit Eddie's Southtown Donuts">Eddie's Southtown Donuts</a></h3></li>
+						        	<li>Regular $1</li>
+						        	<li>Fancy $1.50</li>
+						        </ul>
+						    </div>
+						  </div>
+						  <div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="headingThree">
+						      <h4 class="panel-title">
+						        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						          Lunch
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+						      <div class="panel-body">
+						        <ul class="col-md-12 col-xs-12">
+						        	<li><h3><small>Lunch provided by </small>The Social Affair<small> in Shaw</small></h3></li>
+						        	<li>HARVEST CHICKEN SALAD - Roasted chicken, celery, granny smith apples, grapes, cranberries, caramelized walnuts served on bibb lettuce with rosemary crackers. $9 </li>
+						        	<li>QUICHE - Deep dish quiche served with mixed greens and basil lemongrette $8</li>
+						        	<li>WHITE BEAN AND BASIL DIP - Served with pita chips, carrots & celery $7</li>
+						        	<li>SOUTHERN MAC & CHEESE - Served with a side of mixed greens and basil lemongrette $5.95</li>
+						        	<li>KIDS MAC & CHEESE - Served with an apple, banana, or squeeze yogurt $5.95</li>
+						        </ul>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>  				
+  					</div>
   				</div>
+
   			</div>
 		</div>
 	</div>
 </div>
 </div>
-<!--END MENU-->
+
+<!--END MENU--> 
 
 <!--START IMAGE BLOCK 3-->
-<div class="image-block col-md-12 col-xs-12">
-
+<div class="image-block row">
+	<div class="container-fluid">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 thumbnail">
+			<img src="wide2 cropped.png" class="img-responsive full-width">
+		</div>
+	</div>
 </div>
+
 <!--END IMAGE BLOCK 3-->
 
 <!--START UPDATES-->
 	<div class="row" id="updates">
 		<div class="content-block col-md-12 col-xs-12">
-  			<div class="container">
+  			<div class="container-fluid">
   			<h2>Updates & Events</h2>
   				<div class="row">
   					<ul class="col-md-6 col-xs-12">
@@ -241,7 +261,6 @@
 	  					
 	  				</div>
 
-
 				</div>
   			</div>
 		</div>
@@ -250,15 +269,25 @@
 <!--END UPDATES-->
 
 <!--START IMAGE BLOCK 4-->
-<div class="image-block col-md-12 col-xs-12">
-
+<div class="image-block row">
+	<div class="container-fluid">
+		<div class="thumbnail hidden-xs hidden-sm col-md-4 col-lg-4">
+			<img src="car.png" class="img-responsive">
+		</div>
+		<div class="thumbnail hidden-xs col-sm-6 col-md-4 col-lg-4">
+			<img src="coffee.png" class="img-responsive">
+		</div>
+		<div class="thumbnail col-xs-12 col-sm-6 col-md-4 col-lg-4">
+			<img src="flowers.png" class="img-responsive full-width">
+		</div>
+	</div>
 </div>
 <!--END IMAGE BLOCK 4-->
 
 <!--START CONTACT-->
 <div class="row" id="contact">
 		<div class="content-block col-md-12 col-xs-12">
-  			<div class="container">
+  			<div class="container-fluid">
   				<h2>Contact</h2>
   				<div class="row">
   				<!-- Button trigger modal -->
@@ -305,6 +334,13 @@
 		</div>
 	</div>
 <!--END CONTACT-->
+<div class="image-block row">
+	<div class="container-fluid">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 thumbnail">
+			<img src="grove-old.png" class="img-responsive full-width">
+		</div>
+	</div>
+</div>
 
 </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -12,9 +12,6 @@ body {
 	position: relative;
 }
 
-.panel-heading {
-
-}
 
 .content-block {
 	margin-top:5px;
@@ -26,29 +23,56 @@ body {
 	float:right;
 }
 
-.image-block {
+.thumbnail {
+	border: none !important;
+	margin-bottom: 0 !important;
 }
 
-img {
-
-}
-
-#directions h2 {
-	margin-left: 53px;
+img.full-width {
+	width: 100%;
 }
 
 .map {
 	padding: 5px;
 }
 
-.image-block > .col-xs-12 {
-	padding:none;
+div.custom-accordion {
+	border: solid black 2px;
+	background-color: #ffffff !important;
 }
 
-.image-block > .col-sm-4 {
-	padding:none;
+.panel {
+	border:none !important;
 }
 
-.image-block > .col-md-4 {
-	padding:-15px;
+.panel-group {
+	margin-bottom: 0 !important;
 }
+
+.panel-body{
+	background-color: #ffffff !important;
+	border: none !important;
+}
+
+.panel-heading {
+	background-color: #ffffff !important;
+	border: none !important;
+}
+
+.panel-title {
+	text-align: center;
+}
+
+/*FOLLOWING CODE TAKEN FROM http://julienmelissas.com/no-gutter-column-trick-for-bootstrap/ 
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+END JULIENMELISSAS CODE*/
+
+
