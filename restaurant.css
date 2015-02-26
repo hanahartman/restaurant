@@ -63,6 +63,10 @@ div.custom-accordion {
 	text-align: center;
 }
 
+.block1 {
+	max-height: 369px;
+}
+
 /*FOLLOWING CODE TAKEN FROM http://julienmelissas.com/no-gutter-column-trick-for-bootstrap/ 
 .row.no-gutters {
   margin-right: 0;
