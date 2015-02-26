@@ -19,6 +19,10 @@ body {
 	background-color: #eeeeee;
 }
 
+.image-block {
+	padding: 0px !important;
+}
+	
 .navigation {
 	float:right;
 }
@@ -28,7 +32,7 @@ body {
 	margin-bottom: 0 !important;
 }
 
-img.full-width {
+img {
 	width: 100%;
 }
 
@@ -61,10 +65,6 @@ div.custom-accordion {
 
 .panel-title {
 	text-align: center;
-}
-
-.block1 {
-	max-height: 369px;
 }
 
 /*FOLLOWING CODE TAKEN FROM http://julienmelissas.com/no-gutter-column-trick-for-bootstrap/ 
