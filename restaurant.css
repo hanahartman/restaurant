@@ -217,9 +217,9 @@ input.medium {
 }
 
 .btn-lg {
-	width: 50% !important;
 	height: 50px !important;
 	font-size: 150% !important;
+	margin: 5px !important;
 }
 
 .btn-internal {
