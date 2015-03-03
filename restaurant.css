@@ -240,17 +240,4 @@ input.medium {
 	outline: none !important;
 }
 
-
-/*FOLLOWING CODE TAKEN FROM http://julienmelissas.com/no-gutter-column-trick-for-bootstrap/ 
-.row.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-}
-.row.no-gutters > [class^="col-"],
-.row.no-gutters > [class*=" col-"] {
-  padding-right: 0;
-  padding-left: 0;
-}
-END JULIENMELISSAS CODE*/
-
-
+/*SOME BUTTON CODE INFLUENCED BY INFO FOUND ON http://bootstrapbay.com/blog/bootstrap-button-styles/ */
