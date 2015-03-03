@@ -1,3 +1,5 @@
+
+/*GENERAL*/
 .container.fluid {
 	width: 100%;
 }
@@ -13,7 +15,7 @@ ul {
 
 body {
 	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-bottom: 50px;
 	position: relative;
 	background-image: url("red-brick-2.png");
 	background-repeat: repeat;
@@ -42,6 +44,12 @@ img {
 	width: 100%;
 }
 
+.thumbnail {
+	border: none !important;
+	margin-bottom: 0 !important;
+}
+
+/*MAP ISSUES*/
 .block {
 	text-align: center;
 }
@@ -50,6 +58,7 @@ img {
 	border: 3px solid #b9b9b9 !important;
 }
 
+ /*FOOTER*/
 .content-block-footer {
 	position: fixed !important;
 	bottom: 0px;
@@ -93,12 +102,6 @@ ul.links {
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 }
-
-.thumbnail {
-	border: none !important;
-	margin-bottom: 0 !important;
-}
-
 
 /*ACCORDION MENU*/
 
@@ -198,18 +201,45 @@ input.medium {
 }
 
 .buttons {
-	margin-top: 20px !important;
+	margin-bottom: 15px !important;
 }
 
 .buttons li {
 	display:inline !important;
 }
 
-.btn.btn-primary.btn-lg {
-	font-family: 'Roboto', sans-serif;
-	background-color: #b9b9b9;
-	border: none !important;
+.btn {
+	border-radius: 0 !important;
 }
+
+.btn-primary.btn-main {
+	font-family: 'Lobster', cursive !important;
+}
+
+.btn-lg {
+	width: 50% !important;
+	height: 50px !important;
+	font-size: 150% !important;
+}
+
+.btn-internal {
+	font-family: 'Roboto', sans-serif !important;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active {
+	background-color: #b9b9b9 !important;
+	border: none !important;
+	color: #303030 !important;
+	outline: none !important;
+}
+
+.btn-default .btn-default:hover, .btn-default:active {
+	color: #303030 !important;
+	outline: none !important;
+}
+
 
 /*FOLLOWING CODE TAKEN FROM http://julienmelissas.com/no-gutter-column-trick-for-bootstrap/ 
 .row.no-gutters {
