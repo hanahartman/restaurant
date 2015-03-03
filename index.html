@@ -29,24 +29,27 @@
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container.fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header">
+	    <div class="navbar-header inline">
 	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 	        <span class="sr-only">Toggle navigation</span>
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="index.html"><img src="main logo.png" alt="Rise Coffee House"></a>
+	      <div class="navbar-brand">
+	      	<a href="index.html"><img src="main logo hollow.png" alt="Rise Coffee House"></a>
+	      </div>
+	      
 	    </div>
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	    <div class="navigation">
-	      <ul class="nav navbar-nav">
+	      <ul class="nav navbar-nav links">
 	        <li><a href="#about">About</a></li>	     
 	        <li><a href="#directions">Directions & Hours</a></li>
 	        <li><a href="#menu">Menu</a></li>	     
 	        <li><a href="#updates">Updates & Events</a></li>
-	        <li><a href="#contact">Contact</a></li>	     
+	        <li><a href="#contact">Contact & Gift Cards</a></li>	     
 	        <li><a href="http://www.risecoffeetruck.com">Coffee Truck</a></li>
 	      </ul>
 	    </div>
@@ -107,9 +110,12 @@
 				</ul>
 				<div class="col-md-7">
 					<div class="map">
-						<div class="block">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6233.8896593609325!2d-90.25331854232788!3d38.62715023673738!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9ad7c64b30b78a8d!2sRise+Coffee!5e0!3m2!1sen!2sus!4v1425337528663" width="400" height="300" frameborder="0" style="border:0"></iframe>
+
+					<!-- 4:3 aspect ratio -->
+						<div class="embed-responsive embed-responsive-4by3">
+						  <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6233.8896593609325!2d-90.25331854232788!3d38.62715023673738!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9ad7c64b30b78a8d!2sRise+Coffee!5e0!3m2!1sen!2sus!4v1425337528663" width="400" height="300" frameborder="0" style="border:0"></iframe>
 						</div>
+
 					</div>
 				</div>	
 			</div>
@@ -246,7 +252,7 @@
 	<div class="container">
 		<div class="image-block col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<div class="thumbnail col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<img src="wide3 cropped.png" class="img-responsive">
+				<img src="grove-old-cropped.png" class="img-responsive">
 			</div>
 		</div>
 	</div>
@@ -300,22 +306,27 @@
 <div class="row" id="contact">
 		<div class="container">
 			<div class="content-block content col-xs-12 col-sm-12 col-md-12 col-lg-12">
-  				<h2>Contact</h2>
-  				<div class="row">
-  				<!-- Button trigger modal -->
-					<p class="col-md-12 col-xs-12">Questions? Comments? Just want to say hello? Send us message using the form below. We will will do our best to get back to you in a timely manner. You can also reach us on <a href="http://www.facebook.com/RiseCoffeeHouse">facebook.com/RiseCoffeeHouse</a>.</p>
-					<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Contact Us</button>
+  				<h2 class="col-md-3">Contact & Gift Cards</h2>
+  					<ul class="buttons col-md-9">
+  						<!-- CONTACT MODAL BUTTON -->
+						<li><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contactModal">Contact Us</button></li>
+						<!-- GIFT CARD MODAL BUTTON -->
+						<li><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#gcModal">Purchase a Gift Card</button></li>
+					</ul>
 
 
-  					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<!--CONTACT MODAL-->
+  					<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
 					  <div class="modal-dialog">
 					    <div class="modal-content">
 					      <div class="modal-header">
 					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					        <h4 class="modal-title" id="myModalLabel">Contact</h4>
+					        <h4 class="modal-title" id="contactModalLabel">Contact Us</h4>
 					      </div>
 					      <div class="modal-body">
-					      
+					      	<p>
+					      		Questions? Comments? Just want to say hello? Send us message using the form below. We will will do our best to get back to you in a timely manner. You can also reach us on <a href="http://www.facebook.com/RiseCoffeeHouse">facebook.com/RiseCoffeeHouse</a>.
+					      	</p>
 						    <p>Your Information</p>
 							    <input type="text" class="form-control" placeholder="Name"><br>
 							    <input type="text" class="form-control" placeholder="Email"><br>
@@ -330,8 +341,6 @@
 								<br>
 							<p>Your Message</p>
 						    	<textarea class="form-control" rows="3"></textarea>
-
-
 					      </div>
 					      <div class="modal-footer">
 					        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -341,17 +350,80 @@
 					  </div>
 					</div>
 
+				<!--GIFT CARD MODAL-->
+  					<div class="modal fade" id="gcModal" tabindex="-1" role="dialog" aria-labelledby="gcModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title" id="gcModalLabel">Purchase a Gift Card</h4>
+					      </div>
+					      <div class="modal-body">
+					      
+						    <p>Give the gift of a delicious and sustainable pick-me-up.</p>
+								<form class="form-inline">
+								  <div class="form-group">
+								    <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+								    <div class="input-group">
+								      <div class="input-group-addon">$</div>
+								      <input type="text" class="form-control" id="exampleInputAmount" placeholder="Enter Amount">
+								      <div class="input-group-addon">.00</div>
+								    </div>
+								  </div>
+								</form>
+								<br>
+							<p>Credit Card Information</p>
+							    <input type="text" class="form-control" placeholder="Cardholder name"><br>
+							    <input type="text" class="form-control" placeholder="Credit card number"><br>
+							    <form class="form-inline">
+									<div class="form-group">
+								    	<input type="text" class="form-control short" placeholder="MM">/
+								    	<input type="text" class="form-control short" placeholder="YY">
+								    	<input type="text" class="form-control medium" placeholder="Security code"><br>
+								    </div>
+								</form>
+								<br>
+							<p>Billing Address</p>
+							    <input type="text" class="form-control" placeholder="Street Address 1"><br>
+							   	<input type="text" class="form-control" placeholder="Street Address 2"><br>
+							   	<form class="form-inline">
+									<div class="form-group">
+							    		<input type="text" class="form-control" placeholder="City">
+							    		<input type="text" class="form-control" placeholder="State">
+							    		<input type="text" class="form-control short" placeholder="Zip">
+							    	</div>
+							    </form>
+							    <br>
+							<p>Recipient</p>
+						    	<input type="text" class="form-control" placeholder="Recipient name"><br>
+						    	<input type="text" class="form-control" placeholder="Recipient email address"><br>
+						    	<p>Personalized Message</p>
+							   		<textarea class="form-control" rows="3"></textarea>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					        <button type="button" class="btn btn-primary">Submit</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+
   				</div>
   			</div>
 		</div>
 	</div>
 <!--END CONTACT-->
+
+<!--START FOOTER-->
 <div class="row">
-	<div class="container">
-		<div class="image-block col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<div class="thumbnail col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<img src="grove-old.png" class="img-responsive">
-			</div>
+	<div class="container-fluid">
+		<div class="content-block-footer">
+			<ul class="social">				
+				<li><a href="https://www.facebook.com/RiseCoffeeHouse" alt="Facebook"><img src="social/facebook.png"></a></li>
+				<li><a href="https://twitter.com/RiseCoffeeSTL" alt="Twitter"><img src="social/twitter.png"></a></li>
+				<li><a href="https://instagram.com/risecoffeestl/" alt="Instagram"><img src="social/instagram.png"></a></li>
+			</ul>
 		</div>
 	</div>
 </div>
