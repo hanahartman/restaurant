@@ -10,21 +10,60 @@ ul {
 body {
 	padding-top: 70px;
 	position: relative;
+	background-image: url("red-brick.png");
+	background-repeat: repeat;
+	background-attachment: fixed;
 }
-
 
 .content-block {
 	margin-top:5px;
 	margin-bottom:5px;
-	background-color: #eeeeee;
+	background-color: #ffffff;
+	border: 1px solid #B14128;
+}
+
+.content {
+	padding-top: 15px;
+	padding-right: 30px;
+	padding-bottom: 15px;
+	padding-left: 30px !important;
 }
 
 .image-block {
 	padding: 0px !important;
 }
-	
+
+img {
+	width: 100%;
+}
+
+.block {
+	text-align: center;
+}
+
+.map iframe {
+	border: 3px solid #b9b9b9 !important;
+}
+
+
+/*NAVIGATION*/
+
+.navbar {
+	background-color: #ffffff !important;
+}
+
 .navigation {
 	float:right;
+}
+
+.navbar-brand {
+	height: 50px !important;
+	padding: 0px !important;
+}
+
+.navbar-nav{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
 }
 
 .thumbnail {
@@ -32,16 +71,10 @@ body {
 	margin-bottom: 0 !important;
 }
 
-img {
-	width: 100%;
-}
-
-.map {
-	padding: 5px;
-}
+/*ACCORDION MENU*/
 
 div.custom-accordion {
-	border: solid black 2px;
+	border: 2px solid #333333;
 	background-color: #ffffff !important;
 }
 
@@ -50,21 +83,58 @@ div.custom-accordion {
 }
 
 .panel-group {
-	margin-bottom: 0 !important;
+	margin-bottom: 5px !important;
+}
+
+.panel-heading {
+	background-color: #ffffff !important;
+	border-top: none !important;
+	border-right: none !important;
+	border-left: none !important;
+	border-bottom: 1px solid #333333 !important;
+}
+
+h3.panel-title{
+	text-align: center;
+	font-family: 'Bevan', cursive;
 }
 
 .panel-body{
 	background-color: #ffffff !important;
 	border: none !important;
 }
-
-.panel-heading {
-	background-color: #ffffff !important;
-	border: none !important;
+h4 {
+	font-weight: bold !important;
 }
 
-.panel-title {
+/*GENERAL FONTS */
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	font-family: 'Lobster', cursive !important;
+	text-decoration: underline !important;
+}
+
+.content li {
+	font-family: 'Roboto', sans-serif;
+}
+
+.hours ul {
 	text-align: center;
+	margin-top: 30px;
+	font-size: 125%;
+}
+
+li.special {
+	font-family: 'Bevan', cursive;
+}
+
+.events ul {
+	text-align: center;
+	margin-top: 40px;
+	font-size: 125%;
 }
 
 /*FOLLOWING CODE TAKEN FROM http://julienmelissas.com/no-gutter-column-trick-for-bootstrap/ 
